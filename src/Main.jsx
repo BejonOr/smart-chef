@@ -1,7 +1,7 @@
 import React from "react"
 import IngredientsList from "./IngredientsList"
 import SmartRecipe from "./SmartRecipe"
-import {  getRecipeFromMistral } from "./ai"
+import { getRecipeFromMistral } from "./ai"
 
 export default function Main() {
     const [ingredients, setIngredients] = React.useState([])
