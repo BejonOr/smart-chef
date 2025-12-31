@@ -9,8 +9,7 @@ ingredients they didn't mention, but try not to include too
 many extra ingredients. Format your response in markdown to 
 make it easier to render to a web page
 `
-const apiKey = import.meta.env.VITE_HF_ACCESS_TOKEN // Replace 'your-api-key-here' with your actual API key
-const hf = new HfInference(apiKey)
+const hf = new HfInference(import.meta.env.VITE_HF_ACCESS_TOKEN)
 
 export async function getRecipeFromMistral(ingredientsArr) {
     const ingredientsString = ingredientsArr.join(", ")
