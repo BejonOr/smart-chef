@@ -1,4 +1,4 @@
-import { HfInference } from '@huggingface/inference'
+import { InferenceClient } from '@huggingface/inference'
 
 const SYSTEM_PROMPT = `
 You are an assistant that receives a list of ingredients that a 
