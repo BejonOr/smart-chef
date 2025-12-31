@@ -15,7 +15,7 @@ const hf = new HfInference(apiKey)
 export async function getRecipeFromMistral(ingredientsArr) {
     const ingredientsString = ingredientsArr.join(", ")
     try {
-        const response = await hf.chatCompletion({
+        const response = await hf.chat.completions.create({
             model: "mistralai/Mixtral-8x7B-Instruct-v0.1",
             messages: [
                 { role: "system", content: SYSTEM_PROMPT },
