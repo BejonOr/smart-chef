@@ -12,3 +12,5 @@ export async function getRecipeFromMistral(ingredientsArr) {
   const data = await response.json()
   return data.recipe
 }
+
+
