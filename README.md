@@ -9,5 +9,5 @@ Live Demo: https://thesmartchef.netlify.app/
 # Tech Stack
 Frontend: React, React Markdown
 AI: Hugging Face
-Backend: Netlify
+Backend: Node.js (Netlify)
 
